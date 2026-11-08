@@ -1,0 +1,48 @@
+{
+  "app": "Dumbbell",
+  "renderer": "Flutter UI capture + local SVG composition (Adobe disabled by admin)",
+  "phoneScreenshots": [
+    {
+      "file": "phone-screenshots/01-home.png",
+      "width": 1080,
+      "height": 1920,
+      "alt": "Dumbbell: home and workout overview"
+    },
+    {
+      "file": "phone-screenshots/02-workout.png",
+      "width": 1080,
+      "height": 1920,
+      "alt": "Dumbbell: workout logging"
+    },
+    {
+      "file": "phone-screenshots/03-exercises.png",
+      "width": 1080,
+      "height": 1920,
+      "alt": "Dumbbell: exercise library"
+    },
+    {
+      "file": "phone-screenshots/04-exercise-details.png",
+      "width": 1080,
+      "height": 1920,
+      "alt": "Dumbbell: exercise instructions"
+    },
+    {
+      "file": "phone-screenshots/05-exercise-progress.png",
+      "width": 1080,
+      "height": 1920,
+      "alt": "Dumbbell: exercise progress"
+    },
+    {
+      "file": "phone-screenshots/06-calendar.png",
+      "width": 1080,
+      "height": 1920,
+      "alt": "Dumbbell: training calendar"
+    }
+  ],
+  "featureGraphic": {
+    "file": "feature-graphic-1024x500.png",
+    "width": 1024,
+    "height": 500
+  },
+  "demoData": true
+}

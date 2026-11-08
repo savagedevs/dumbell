@@ -1,0 +1,25 @@
+# Local machine files and dependency/build output.
+.DS_Store
+node_modules/
+__pycache__/
+*.pyc
+.dart_tool/
+.gradle/
+build/
+coverage/
+.idea/
+
+# Private credentials and release signing material.
+.env
+.env.*
+!.env.example
+.signing/
+*.jks
+*.keystore
+*.p12
+*.pfx
+key.properties
+local.properties
+
+# Generated app distribution packages.
+workout_app/releases/

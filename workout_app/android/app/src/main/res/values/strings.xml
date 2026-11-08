@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dumbbell</string>
+    <string name="live_workout_channel_name">Live workout</string>
+    <string name="live_workout_channel_description">Elapsed time and current exercise while a workout is in progress.</string>
+    <string name="live_workout_public_notification">Workout in progress</string>
+    <string name="live_workout_notification_detail">%1$s · %2$d/%3$d sets complete</string>
+    <string name="live_workout_notification_resume">Resume workout</string>
+    <string name="live_workout_notification_elapsed">Elapsed time</string>
+    <string name="live_workout_no_exercise">Add your first exercise</string>
+    <string name="live_workout_widget_name">Dumbbell workout</string>
+    <string name="live_workout_widget_description">See your workout timer and current exercise, then tap to resume your saved session.</string>
+    <string name="live_workout_widget_live">LIVE</string>
+    <string name="live_workout_widget_draft">DRAFT</string>
+    <string name="live_workout_widget_unfinished">Unfinished workout</string>
+    <string name="live_workout_widget_ready">READY</string>
+    <string name="live_workout_widget_idle">Ready to lift?</string>
+    <string name="live_workout_widget_idle_detail">Your next session starts here.</string>
+    <string name="live_workout_widget_sets">%1$d/%2$d sets complete</string>
+    <string name="live_workout_widget_open">Open Dumbbell →</string>
+    <string name="live_workout_widget_resume">Resume →</string>
+    <string name="live_workout_widget_idle_accessibility">No active workout. Open Dumbbell.</string>
+    <string name="live_workout_widget_resume_accessibility">%1$s. Resume your saved workout in Dumbbell.</string>
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/notification_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="4dp"
+    android:paddingBottom="8dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/live_workout_notification_elapsed"
+        android:textAppearance="@style/TextAppearance.Compat.Notification.Line2"
+        android:textSize="12sp"
+        android:includeFontPadding="false" />
+
+    <Chronometer
+        android:id="@+id/notification_timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:textAppearance="@style/TextAppearance.Compat.Notification.Title"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:fontFeatureSettings="tnum"
+        android:includeFontPadding="false"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/notification_exercise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textAppearance="@style/TextAppearance.Compat.Notification.Title"
+        android:textSize="17sp"
+        android:fontFamily="sans-serif-medium"
+        android:includeFontPadding="false"
+        android:maxLines="2"
+        android:ellipsize="end" />
+
+    <TextView
+        android:id="@+id/notification_workout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textAppearance="@style/TextAppearance.Compat.Notification.Line2"
+        android:textSize="12sp"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:ellipsize="end" />
+
+    <TextView
+        android:id="@+id/notification_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textAppearance="@style/TextAppearance.Compat.Notification.Line2"
+        android:textSize="12sp"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:ellipsize="end" />
+
+    <ProgressBar
+        android:id="@+id/notification_progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="6dp"
+        android:progressDrawable="@drawable/live_workout_notification_progress"
+        android:indeterminate="false" />
+</LinearLayout>
